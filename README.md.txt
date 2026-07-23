@@ -15,4 +15,4 @@ This project scans a folder and displays all files and subfolders.
 Python
 
 ## Author
-Noor Malik
+Iqra  Malik
