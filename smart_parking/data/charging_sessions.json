@@ -1,0 +1,22 @@
+[
+    {
+        "charging_session_id": "C0001",
+        "parking_session_id": "S0001",
+        "start_time": "2026-08-17T23:07:21.343340",
+        "end_time": "2026-08-17T23:08:15.543834",
+        "start_meter": 100.0,
+        "end_meter": 120.0,
+        "energy_cost": 1000.0,
+        "status": "COMPLETED"
+    },
+    {
+        "charging_session_id": "C0002",
+        "parking_session_id": "S0004",
+        "start_time": "2026-08-18T00:25:33.086012",
+        "end_time": "2026-08-18T00:35:12.799272",
+        "start_meter": 10.0,
+        "end_meter": 15.0,
+        "energy_cost": 250.0,
+        "status": "COMPLETED"
+    }
+]

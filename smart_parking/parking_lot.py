@@ -1,25 +1,34 @@
 class ParkingLot:
-    def __init__(self, lot_id, lot_name, capacity):
+
+    def __init__(self, lot_id, name, location):
         self.lot_id = lot_id
-        self.lot_name = lot_name
-        self.capacity = capacity
-        self.spots = []
+        self.name = name
+        self.location = location
+        self.spot_ids = []
 
-    def add_spot(self, spot):
-        if len(self.spots) < self.capacity:
-            self.spots.append(spot)
-            print("Parking spot added successfully!")
-        else:
-            print("Parking lot is full!")
+    def add_spot(self, spot_id):
+        if spot_id not in self.spot_ids:
+            self.spot_ids.append(spot_id)
 
-    def show_spots(self):
-        if not self.spots:
-            print("No parking spots available.")
-        else:
-            for spot in self.spots:
-                print(
-                    f"ID: {spot.spot_id}, "
-                    f"Type: {spot.spot_type}, "
-                    f"Status: {spot.status}, "
-                    f"Rate: {spot.hourly_rate}"
-                )
+    def to_dict(self):
+        return {
+            "lot_id": self.lot_id,
+            "name": self.name,
+            "location": self.location,
+            "spot_ids": self.spot_ids
+        }
+
+    @classmethod
+    def from_dict(cls, data):
+        lot = cls(
+            data["lot_id"],
+            data["name"],
+            data["location"]
+        )
+
+        lot.spot_ids = data.get(
+            "spot_ids",
+            []
+        )
+
+        return lot

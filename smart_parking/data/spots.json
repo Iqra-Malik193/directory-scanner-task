@@ -1,0 +1,18 @@
+[
+    {
+        "spot_id": "E01",
+        "lot_id": "L01",
+        "spot_type": "EV",
+        "status": "OCCUPIED",
+        "hourly_rate": 100.0,
+        "kwh_rate": 50.0
+    },
+    {
+        "spot_id": "S01",
+        "lot_id": "L01",
+        "spot_type": "REGULAR",
+        "status": "OCCUPIED",
+        "hourly_rate": 100.0,
+        "kwh_rate": 0
+    }
+]

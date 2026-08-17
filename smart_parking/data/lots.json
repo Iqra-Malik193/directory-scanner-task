@@ -1,0 +1,17 @@
+[
+    {
+        "lot_id": "L01",
+        "name": "main parking",
+        "location": "islamabad",
+        "spot_ids": [
+            "E01",
+            "S01"
+        ]
+    },
+    {
+        "lot_id": "L1",
+        "name": "Main Parking",
+        "location": "Main Gate",
+        "spot_ids": []
+    }
+]

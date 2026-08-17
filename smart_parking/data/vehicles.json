@@ -1,0 +1,20 @@
+[
+    {
+        "license_plate": "ABC123",
+        "owner_name": "Iqra",
+        "vehicle_type": "EV_CAR",
+        "registration_date": "2026-08-17"
+    },
+    {
+        "license_plate": "XYZ789",
+        "owner_name": "Iqra",
+        "vehicle_type": "CAR",
+        "registration_date": "2026-08-17"
+    },
+    {
+        "license_plate": "EV123",
+        "owner_name": "Iqra",
+        "vehicle_type": "EV_CAR",
+        "registration_date": "2026-08-17"
+    }
+]

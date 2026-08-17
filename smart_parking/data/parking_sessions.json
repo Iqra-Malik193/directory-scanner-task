@@ -1,0 +1,42 @@
+[
+    {
+        "session_id": "S0001",
+        "license_plate": "ABC123",
+        "spot_id": "E01",
+        "lot_id": "L01",
+        "check_in": "2026-08-17T23:05:03.107360",
+        "check_out": "2026-08-17T23:09:30.366017",
+        "parking_fee": 0.0,
+        "status": "COMPLETED"
+    },
+    {
+        "session_id": "S0002",
+        "license_plate": "XYZ789",
+        "spot_id": "S01",
+        "lot_id": "L01",
+        "check_in": "2026-08-18T00:08:28.388448",
+        "check_out": "2026-08-18T00:14:49.550217",
+        "parking_fee": 0.0,
+        "status": "COMPLETED"
+    },
+    {
+        "session_id": "S0003",
+        "license_plate": "XYZ789",
+        "spot_id": "S01",
+        "lot_id": "L01",
+        "check_in": "2026-08-18T00:17:39.254398",
+        "check_out": null,
+        "parking_fee": 0.0,
+        "status": "ACTIVE"
+    },
+    {
+        "session_id": "S0004",
+        "license_plate": "EV123",
+        "spot_id": "E01",
+        "lot_id": "L01",
+        "check_in": "2026-08-18T00:24:09.030314",
+        "check_out": null,
+        "parking_fee": 0.0,
+        "status": "ACTIVE"
+    }
+]

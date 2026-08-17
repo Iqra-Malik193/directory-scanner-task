@@ -1,0 +1,42 @@
+
+SMART PARKING FACILITY REPORT
+=============================
+
+Generated At: 2026-08-17T23:23:55.520048
+
+Total Lots: 1
+Total Spots: 1
+
+SPOT BREAKDOWN BY TYPE
+----------------------
+REGULAR: 0
+HANDICAPPED: 0
+EV: 1
+
+SPOT BREAKDOWN BY STATUS
+------------------------
+AVAILABLE: 1
+OCCUPIED: 0
+OUT_OF_SERVICE: 0
+
+REVENUE
+-------
+Parking Revenue: Rs. 0.00
+Charging Revenue: Rs. 1000.00
+Total Revenue: Rs. 1000.00
+
+Average Session Duration:
+0.07 hours
+
+Busiest Lot:
+L01
+
+TOP THREE VEHICLES BY SPENDING
+------------------------------
+1. ABC123 - Rs. 1000.00
+
+Currently Active Sessions:
+0
+
+Currently Active Charging Sessions:
+0
