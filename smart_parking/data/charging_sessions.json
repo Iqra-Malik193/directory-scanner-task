@@ -18,5 +18,15 @@
         "end_meter": 15.0,
         "energy_cost": 250.0,
         "status": "COMPLETED"
+    },
+    {
+        "charging_session_id": "C0003",
+        "parking_session_id": "S0004",
+        "start_time": "2026-08-22T20:02:28.791013",
+        "end_time": "2026-08-22T20:40:51.022922",
+        "start_meter": 100.0,
+        "end_meter": 150.0,
+        "energy_cost": 2500.0,
+        "status": "COMPLETED"
     }
 ]

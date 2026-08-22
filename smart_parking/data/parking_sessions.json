@@ -35,8 +35,8 @@
         "spot_id": "E01",
         "lot_id": "L01",
         "check_in": "2026-08-18T00:24:09.030314",
-        "check_out": null,
-        "parking_fee": 0.0,
-        "status": "ACTIVE"
+        "check_out": "2026-08-22T20:49:48.149294",
+        "parking_fee": 16350.0,
+        "status": "COMPLETED"
     }
 ]
